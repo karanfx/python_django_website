@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karan's Portfolio</title>
+    <link rel="stylesheet" href={% static 'portfolio_page/main.css' %}>
+</head>
+<body>
+    <div class="videoWrapper">
+        <!-- Copy & Pasted from YouTube -->
+        <iframe width="560" height="349" src="https://www.youtube-nocookie.com/embed/xgvrCd4vwoA?rel=0&autoplay=1&mute=1" allow="autoplay" frameborder="0" allowfullscreen ></iframe>
+      </div>
+      <h1  style="font-family:verdana" title="Projects"><center><a href="https://www.imdb.com/name/nm14840976/?ref_=nv_sr_srsg_0_tt_0_nm_3_q_karan%2520mirajkar" target="_blank" title = "IMDB Link" >Projects</a></center></h1>
+
+    {% comment %} <div class="column">
+        
+        <img src= {% static 'portfolio_page\show_posters\champ poster.jpg' %}>
+        <img src= {% static 'portfolio_page\show_posters\crater_poster.jpg' %}>
+        <img src= {% static 'portfolio_page/show_posters/poster-of-Bhediya.jpg' %}>
+        <img src= {% static 'portfolio_page\show_posters\vikings_valhalla_poster.jpg' %}>
+        <img src= {% static 'portfolio_page\show_posters\witcher_blood_origin_poster.jpg' %}>
+        <img src= {% static 'portfolio_page/show_posters/resident_evil_2022_poster.jpg' %}>
+
+    </div> {% endcomment %}
+      
+        <div class="gallery">
+          <a target="_blank" href="https://www.imdb.com/title/tt12226632/?ref_=ext_shr_lnk">
+            <img src= {% static 'portfolio_page\show_posters\champ poster.jpg' %} alt="Big Gorge Foreman" width="600" height="400">
+          </a>
+          {% comment %} <div class="desc">Add a description of the image here</div> {% endcomment %}
+        </div>
+        
+        <div class="gallery">
+          <a target="_blank" href="https://www.imdb.com/title/tt5264838/">
+            <img src= {% static 'portfolio_page\show_posters\crater_poster.jpg' %} alt="Crater" width="600" height="400">
+          </a>
+          {% comment %} <div class="desc">Add a description of the image here</div> {% endcomment %}
+        </div>
+        
+        <div class="gallery">
+          <a target="_blank" href="https://www.imdb.com/title/tt12226632/">
+            <img src= {% static 'portfolio_page/show_posters/poster-of-Bhediya.jpg' %} alt="Bhediya.jpg" width="600" height="400">
+          </a>
+          {% comment %} <div class="desc">Add a description of the image here</div> {% endcomment %}
+        </div>
+        
+        <div class="gallery">
+          <a target="_blank" href="https://www.imdb.com/title/tt11311302/?ref_=ext_shr_lnk">
+            <img src= {% static 'portfolio_page\show_posters\vikings_valhalla_poster.jpg' %} alt="Vikings Valhalla" width="600" height="400">
+          </a>
+          {% comment %} <div class="desc">Add a description of the image here</div> {% endcomment %}
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="https://www.imdb.com/title/tt12785720/">
+              <img src= {% static 'portfolio_page\show_posters\witcher_blood_origin_poster.jpg' %} alt="Witcher_Blood_Origin" width="600" height="400">
+            </a>
+            {% comment %} <div class="desc">Add a description of the image here</div> {% endcomment %}
+          </div>
+
+        <div class="gallery">
+            <a target="_blank" href="https://www.imdb.com/title/tt9660182/?ref_=ext_shr_lnk">
+              <img src= {% static 'portfolio_page/show_posters/resident_evil_2022_poster.jpg' %} alt="resident_evil_2022" width="600" height="400">
+            </a>
+            {% comment %} <div class="desc">Add a description of the image here</div> {% endcomment %}
+        </div>
+</body>
+</html>
